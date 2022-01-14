@@ -12,7 +12,7 @@ import com.saprojects.dsmovie.dto.MovieDTO;
 import com.saprojects.dsmovie.service.MovieService;
 
 @RestController
-@RequestMapping(value = "movies")
+@RequestMapping(value = "/movies")
 public class MovieController {
 
 	@Autowired
